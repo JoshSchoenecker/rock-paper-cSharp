@@ -25,15 +25,15 @@ namespace rockPaperScissors
             {
                 System.Console.WriteLine("Choose Rock Paper or Scissors");
                 string playerChoice = Console.ReadLine();
-
+                // NOTE computer choice Rock
                 if (computerChoice == 1)
                 {
                     if (playerChoice == "Rock")
                     {
                         System.Console.WriteLine("The computer chose rock as well, It is a tie!");
 
-                        System.Console.WriteLine("Wins: ", wins);
-                        System.Console.WriteLine("Losses: ", losses);
+                        System.Console.WriteLine("Wins: " + wins);
+                        System.Console.WriteLine("Losses: " + losses);
 
                         System.Console.WriteLine("It's a tie! Do you want to play again? Y/N");
                         string choice = Console.ReadLine();
@@ -54,8 +54,8 @@ namespace rockPaperScissors
                         System.Console.WriteLine("You Win! paper beats rock");
 
                         wins++;
-                        System.Console.WriteLine("Wins: ", wins);
-                        System.Console.WriteLine("Losses: ", losses);
+                        System.Console.WriteLine("Wins: " + wins);
+                        System.Console.WriteLine("Losses: " + losses);
 
                         System.Console.WriteLine("You won! Do you want to play again? Y/N");
                         string continueGame = Console.ReadLine();
@@ -76,8 +76,8 @@ namespace rockPaperScissors
                         System.Console.WriteLine("You Lose! rock beats scissors");
 
                         losses++;
-                        System.Console.WriteLine("Wins: ", wins);
-                        System.Console.WriteLine("Losses: ", losses);
+                        System.Console.WriteLine("Wins: " + wins);
+                        System.Console.WriteLine("Losses: " + losses);
 
                         System.Console.WriteLine("You Lost! Do you want to play again? Y/N");
                         string choice = Console.ReadLine();
@@ -97,6 +97,7 @@ namespace rockPaperScissors
                         System.Console.WriteLine("You must choose Rock, Paper, or Scissors");
                     }
                 }
+                // NOTE computer choice Paper
                 else if (computerChoice == 2)
                 {
                     if (playerChoice == "Rock")
@@ -105,8 +106,8 @@ namespace rockPaperScissors
                         System.Console.WriteLine("You Lose! paper beats rock");
 
                         losses++;
-                        System.Console.WriteLine("Wins: ", wins);
-                        System.Console.WriteLine("Losses: ", losses);
+                        System.Console.WriteLine("Wins: " + wins);
+                        System.Console.WriteLine("Losses: " + losses);
 
                         System.Console.WriteLine("You Lost! Do you want to play again? Y/N");
                         string choice = Console.ReadLine();
@@ -125,8 +126,8 @@ namespace rockPaperScissors
                     {
                         System.Console.WriteLine("The computer chose paper as well, It is a tie!");
 
-                        System.Console.WriteLine("Wins: ", wins);
-                        System.Console.WriteLine("Losses: ", losses);
+                        System.Console.WriteLine("Wins: " + wins);
+                        System.Console.WriteLine("Losses: " + losses);
 
                         System.Console.WriteLine("It's a tie! Do you want to play again? Y/N");
                         string choice = Console.ReadLine();
@@ -147,8 +148,8 @@ namespace rockPaperScissors
                         System.Console.WriteLine("You Win! scissors beats paper");
 
                         wins++;
-                        System.Console.WriteLine("Wins: ", wins);
-                        System.Console.WriteLine("Losses: ", losses);
+                        System.Console.WriteLine("Wins: " + wins);
+                        System.Console.WriteLine("Losses: " + losses);
 
                         System.Console.WriteLine("You won! Do you want to play again? Y/N");
                         string continueGame = Console.ReadLine();
@@ -168,6 +169,7 @@ namespace rockPaperScissors
                         System.Console.WriteLine("You must choose Rock, Paper, or Scissors");
                     }
                 }
+                // NOTE computer choice Scissors
                 else if (computerChoice == 3)
                 {
                     if (playerChoice == "Rock")
@@ -176,8 +178,8 @@ namespace rockPaperScissors
                         System.Console.WriteLine("You Win! rock beats scissors");
 
                         wins++;
-                        System.Console.WriteLine("Wins: ", wins);
-                        System.Console.WriteLine("Losses: ", losses);
+                        System.Console.WriteLine("Wins: " + wins);
+                        System.Console.WriteLine("Losses: " + losses);
 
                         System.Console.WriteLine("You won! Do you want to play again? Y/N");
                         string continueGame = Console.ReadLine();
@@ -198,8 +200,8 @@ namespace rockPaperScissors
                         System.Console.WriteLine("You Lose! scissors beats paper");
 
                         losses++;
-                        System.Console.WriteLine("Wins: ", wins);
-                        System.Console.WriteLine("Losses: ", losses);
+                        System.Console.WriteLine("Wins: " + wins);
+                        System.Console.WriteLine("Losses: " + losses);
 
                         System.Console.WriteLine("You Lost! Do you want to play again? Y/N");
                         string choice = Console.ReadLine();
@@ -218,8 +220,8 @@ namespace rockPaperScissors
                     {
                         System.Console.WriteLine("The computer chose scissors as well, It is a tie!");
 
-                        System.Console.WriteLine("Wins: ", wins);
-                        System.Console.WriteLine("Losses: ", losses);
+                        System.Console.WriteLine("Wins: " + wins);
+                        System.Console.WriteLine("Losses: " + losses);
 
                         System.Console.WriteLine("It's a tie! Do you want to play again? Y/N");
                         string choice = Console.ReadLine();
